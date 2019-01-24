@@ -69,6 +69,7 @@
       </ul>
    </nav>
 
+   <!-- This is a form that has input elements option lists and legends. -->
    <section>
       <h1>CSS Demo</h1>
       <form>
@@ -84,12 +85,14 @@
          </p>
 
          <fieldset>
+            <!-- The text above the form -->
             <legend>Fonts</legend>
 
 
             <label for="fontfamily">Font Family</label>
             <select name="fontfamily" id="fontfamily">
                <optgroup label="Generic">
+                  <!-- Shows the list of options the user has -->
                   <option value="default">default</option>
                   <option value="serif">serif</option>
                   <option value="sans-serif" selected>sans-serif</option>
@@ -109,17 +112,12 @@
                </optgroup>
 
             </select>
-
-
-
             <label for="fontstyle">Font Style</label>
             <select name="fontstyle" id="fontstyle">
                <option value="normal">normal</option>
                <option value="italic">italic</option>
                <option value="oblique" selected>oblique</option>
             </select>
-
-
 
             <label for="fontweight">Font Weight</label>
             <select name="fontweight" id="fontweight">
@@ -156,7 +154,7 @@
 
             <label for="color">Font Color (hexadecimal)</label>
             <input name="color" id="color" value="#000000" type="color" />
-
+            <!-- Labels are the text and the input boxes for answers -->
             <label for="backgroundcolor">Background Color (hexadecimal)
             </label>
             <input name="backgroundcolor" id="backgroundcolor" value="#FFFFFF" type="color" placeholder="#rrggbb" />

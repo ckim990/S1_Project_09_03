@@ -6,32 +6,106 @@
    Case Problem 3
 
    WidgetMage Form Styles
-   Author: 
-   Date:   
+   Author: Christopher Kim
+   Date:   1.23.19
 
    Filename: wm_forms.css
 
 */
 
 /* Field Set Styles */
+/* Changes the margin styles and width */
+fieldset {
+   border: none;
+   width: 60%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
 
-
-
+/* Adds background color and changes the margin sizes for the element */
+legend {
+   background-color: rgb(232, 232, 232);
+   width: 100%;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
 
 /* DIV Styles */
+/* Floats the element left and adds changes to the margin and set the width of the element. */
+div.slider {
+   float: left;
+   width: 60%;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   margin-right: 0px;
 
-
-
+}
 
 /* Control Styles */
+/* Floats the element left and changes width */
+label {
+   float: left;
+   clear: left;
+   display: block;
+   width: 40%;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+input,
+select {
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+input[type="range"] {
+   width: 60%;
+}
+
+select {
+   display: block;
+   float: left;
+   width: 120px;
+}
 
 
+input[type="color"] {
+   display: block;
+   float: left;
+   width: 75px;
+}
 
+textarea {
+   font-size: 1.5em;
+   width: 100%;
+   height: 200px;
+   bottom: 15px;
+}
 
 /* Placeholder Styles */
+textarea::-moz-placeholder {
+   background-color: rgb(255, 255, 191);
+   color: rgb(255, 151, 151);
+   font-size: 1.5em;
+}
 
+textarea::-ms-input-placeholder {
+   background-color: rgb(255, 255, 191);
+   color: rgb(255, 151, 151);
+   font-size: 1.5em;
+}
 
-
-
-
-   
+textarea::-webkit-input-placeholder {
+   background-color: rgb(255, 255, 191);
+   color: rgb(255, 151, 151);
+   font-size: 1.5em;
+}
